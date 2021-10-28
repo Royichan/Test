@@ -8,7 +8,7 @@ class paint:
 class showroom:
     def totalprice(self,k,l):
         for i in k:
-            print(i.paintingPrice)
+            print(i.paintingPrice)                     
 
 
 def main():
@@ -25,6 +25,7 @@ def main():
     
     s = showroom()
     s.totalprice(p,n)
+    print("This is the final print statement.")
 
 if "__name__" == main():
    main()
