@@ -8,7 +8,9 @@ class paint:
 class showroom:
     def totalprice(self,k,l):
         for i in k:
-            print(i.paintingPrice)                     
+            print(i.paintingPrice)  
+            
+            # added this new line
 
 
 def main():
